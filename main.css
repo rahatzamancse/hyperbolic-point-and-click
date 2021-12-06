@@ -1,0 +1,143 @@
+.view{
+  height: 800px;
+  width: 800px;
+  margin: 0px;
+}
+
+.buttondiv{
+  position: absolute;
+  height: 150px;
+  width: 800px;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    font: 10pt sans-serif;
+    background: #EEE;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+div {
+    padding: 5px;
+}
+
+svg {
+    background: white;
+}
+
+select {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.scatter-label {
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+.scatter {
+    width: 600;
+    height: 600;
+}
+
+.container {
+    position: relative;
+}
+
+.scatter-ui {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainview {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-label {
+    margin-bottom: 20px;
+}
+
+span.selected-label {
+    color: darkblue;
+}
+
+.bar {
+  background-color: darkblue;
+  fill: darkblue;
+}
+
+.caption{
+  text-anchor: middle;
+}
+
+.percaption{
+  text-anchor: middle;
+}
+
+.pts{
+  fill: black;
+  stroke: black;
+  stroke-width: 1pt;
+}
+
+.hovered-pts{
+  stroke: black;
+  stroke-width: 3pt;
+}
+
+.hovertext{
+  fill: black;
+}
+
+.clr-palette{
+  width: 150px;
+  height: 500px;
+  margin-top: 27px;
+}
+
+.legend-boxes{
+
+}
+
+.legend-text{
+
+}
+
+.histo{
+  width: 300px;
+  height: 100px;
+}
+
+.double{
+  opacity: 1;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.notdouble{
+  opacity: 0.5;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.mybutton{
+  margin-left: auto;
+  display: block;
+}
+
+.testline{
+  pointer-events: none;
+}
